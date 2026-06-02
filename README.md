@@ -1,10 +1,10 @@
 <h1 align="center"><b>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</b></h1>
 
 <p align="center">
-  <img src="https://github.com/DreamXBotz/Pics/blob/main/dreamxbotz.jpg" alt="DreamxBotz Logo">
+  <img src="https://i.ibb.co/svTkFp5v/photo-2026-06-02-14-54-48-7646811837391962116.jpg" alt="HP Raj Movies Logo">
 </p>
 
-<h1 align="center">𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</h1>
+<h1 align="center">HP Raj MOVIES</h1>
 
 ---
 
