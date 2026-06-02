@@ -31,7 +31,7 @@ BATCH_FILES = {}
 async def start(client, message):
     sticker = None
     try:
-        stick_id = "CAACAgUAAxkBAAEQJmJpViid_0yscWKPfh3RMCY8pIkmXwACMAcAAqzbsFexyKU6FPQAAjgE"
+        stick_id = "CAACAgUAAxkBAAECH3VqHutVGq89T-DMPHsZKQ1RDo13OAACPxoAAkF-KFX7IBl3u1zvOx4E"
         try:
             sticker = await message.reply_sticker(sticker=stick_id)
         except Exception as e:
@@ -91,7 +91,7 @@ async def start(client, message):
             buttons = [[
                         InlineKeyboardButton('❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❤️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton('🍁 Update Channel 🍁', url=UPDATE_CHNL_LNK)
+                        InlineKeyboardButton('🍁 ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🍁', url=UPDATE_CHNL_LNK)
                       ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -107,13 +107,13 @@ async def start(client, message):
             await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
         if len(message.command) != 2:
             buttons = [[
-                        InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                        InlineKeyboardButton('⭕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                        InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
+                        InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                     ],[
-                        InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
-                        InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                        InlineKeyboardButton('• ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ •', url=f'https://t.me/+DWu_QXl2Ydg3N2Zl'),
+                        InlineKeyboardButton('•ᴜᴘɢʀᴀᴅᴇ •', callback_data="premium_info"),
                     ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -140,13 +140,13 @@ async def start(client, message):
 
         if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
             buttons = [[
-                        InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                        InlineKeyboardButton('⭕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                        InlineKeyboardButton('• ʜᴇʟᴘ •', callback_data='help'),
+                        InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                     ],[
-                        InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
-                        InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                        InlineKeyboardButton('• ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ •', url=f'https://t.me/+DWu_QXl2Ydg3N2Zl'),
+                        InlineKeyboardButton('• ᴜᴘɢʀᴀᴅᴇ •', callback_data="premium_info"),
                     ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             current_time = datetime.now(pytz.timezone(TIMEZONE))
