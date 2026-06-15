@@ -147,7 +147,6 @@ Nᴀᴍᴇ - {}
 
 
     DEL_MSG = """<blockquote expandable><b><i> ⧗ Dᴜᴇ ᴛᴏ Cᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs....</i></b></blockquote>
-    
     <blockquote expandable><b><i>›› Yᴏᴜʀ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴡɪᴛʜɪɴ <b><u><code>{}</code></u></b>. Sᴏ ғᴏʀᴡᴀʀᴅ ᴛʜᴇᴍ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ.</i></b></blockquote>
 
 <blockquote expandable><b><i>≡ ɴᴏᴛᴇ : ᴜsᴇ VLC / MX Player for best experience.</i></b></blockquote>"""
