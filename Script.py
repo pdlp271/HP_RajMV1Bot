@@ -302,7 +302,7 @@ Missed Movie : <b>{}</b>"""
     MOVIE_UPDATE_NOTIFY_TXT = """
 </b>{filename}</b> <b>{year}</b>
 
-<b>➩ Longuage</b> : <b>{language}</b>
+<b>➩ Language</b> : <b>{language}</b>
 <b>➩ Quality</b> : <b>{quality}</b>
 <b>➩ Genres</b> : <b>{genres}</b>
        <b>{episodes}</b>
