@@ -147,8 +147,7 @@ Nᴀᴍᴇ - {}
 
 
     DEL_MSG = """<blockquote expandable><b><i> ⧗ Dᴜᴇ ᴛᴏ Cᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs....</i></b></blockquote>
-    <blockquote expandable><b><i>›› Yᴏᴜʀ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴡɪᴛʜɪɴ <b><u><code>{}</code></u></b>. Sᴏ ғᴏʀᴡᴀʀᴅ ᴛʜᴇᴍ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ.</i></b></blockquote>
-
+<blockquote expandable><b><i>›› Yᴏᴜʀ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴡɪᴛʜɪɴ <b><u><code>{}</code></u></b>. Sᴏ ғᴏʀᴡᴀʀᴅ ᴛʜᴇᴍ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ.</i></b></blockquote>
 <blockquote expandable><b><i>≡ ɴᴏᴛᴇ : ᴜsᴇ VLC / MX Player for best experience.</i></b></blockquote>"""
 
 
@@ -301,13 +300,13 @@ Missed Movie : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-</b> <code>{filename} {year}</code>
+</b>{filename}</b> <b>{year}</b>
 
-➩ Longuage : <b>{language}</b>
-➩ Quality : <b>{quality}</b>
-➩ Genres: <b>{genres}</b>
-       {episodes}
-×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ :- @HP_Raj_MOVIES """
+<b>➩ Longuage</b> : <b>{language}</b>
+<b>➩ Quality</b> : <b>{quality}</b>
+<b>➩ Genres</b> : <b>{genres}</b>
+       <b>{episodes}</b>
+<b>×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ :- @HP_Raj_MOVIES</b> """
 
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
 
