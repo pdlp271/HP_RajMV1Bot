@@ -301,23 +301,13 @@ Missed Movie : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+</b> <code>{filename} {year}</code>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename} {year}</code>
-
-🎭 ɢᴇɴʀᴇs : <b>{genres}<
-📺 ᴏᴛᴛ    : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ   : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ  : <b>{rating}</b>
-{episodes}
-
-×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ :- @HP_Raj_MOVIES
-</blockquote>
-
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
-"""
-
+➩ Longuage : <b>{language}</b>
+➩ Quality : <b>{quality}</b>
+➩ Genres: <b>{genres}</b>
+       {episodes}
+×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ :- @HP_Raj_MOVIES """
 
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
 
