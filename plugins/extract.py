@@ -223,11 +223,11 @@ async def extract_data_handler(client: Client, query: CallbackQuery):
                         new_row.append(btn)
                 success_keyboard.append(new_row)
         try:
-    await query.edit_message_reply_markup(
+           await query.edit_message_reply_markup(
         reply_markup=InlineKeyboardMarkup(success_keyboard)
-    )
-except MessageNotModified:
-    pass
+            )
+        except MessageNotModified:
+          pass 
     except Exception as e:
         logger.exception(e)
         await query.message.reply_text(f"Error: {e}", quote=True)
